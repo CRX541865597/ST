@@ -1,0 +1,62 @@
+/* CSS Document */
+/*初始化*/
+html,body,div,ul,li,ol,li,p,span,strong,b,a,img,form,input,em,i,h1,h2,h3,h4,h5,h6,dl,dt,dd{ margin:0; padding:0;}
+li{ list-style:none;}
+img{ border:0 none; vertical-align:top;}
+a{ color:#fee201; text-decoration:none;}
+.clearfix{*zoom:1;}
+.clearfix:after{ content:"."; visibility:hidden; clear:both; display:block; height:0; font-size:0;}
+html{ font-size:625%;}
+body{ max-width:640px; margin:0 auto; min-width:320px; font-size:0.24rem; color:#bababa; background:#001431; font-family:"微软雅黑";}
+
+/*头部*/
+#header{ width:100%; height:auto;}
+#header img{ width:100%;}
+/*标题*/
+.BT-1{ width:100%; height:0.61rem; background:url(../images/BT.png) no-repeat; background-size:100%; color:#fffc00; font-size:0.3rem; text-align:center; line-height:0.61rem;}
+.BT-2{ margin-top:0.18rem;}
+.BT-3{ margin-top:0.26rem;}
+
+/*电影*/
+#DY-1,#DY-2{ width:6.16rem; height:auto; margin:0.08rem auto 0; border:#00265c 1px solid; border-radius:0.1rem; box-shadow:0.02rem 0.02rem 0.03rem #0c2952; }
+.DY-1-top,.DY-2-top{ width:6.04rem; height:auto; margin:0.13rem 0 0 0.13rem;}
+.DY-1-top-left,.DY-2-top-left{ float:left; width:1.72rem; height:2.46rem; border:#bbb118 0.02rem solid; border-radius:0.02rem;}
+.DY-1-top-left img,.DY-2-top-left img{ width:100%;}
+.DY-1-top-right,.DY-2-top-right{ float:right; width:3.93rem;}
+.DY-1-top-text li,.DY-2-top-text li{ height:0.48rem; line-height:0.48rem;}
+.DY-1-text-left,.DY-2-text-left,.DY-3-text-left{ float:left; width:1.25rem; color:#00a8ff;}
+.DY-1-text-right,.DY-2-text-right,.DY-3-text-right{ float:left; width:2.68rem; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+.DY-1-btn,.DY-2-btn{ display:block; width:2.96rem; height:0.54rem; background:url(../images/btn.png) no-repeat; color:#ffc903; font-size:0.26rem; line-height:0.54rem; background-size:100%; text-align:center; margin:0.08rem 0 0 0.55rem;}
+
+.DY-1-talk,.DY-2-talk{ width:5.9rem; height:auto; border-bottom:#002f71 1px dashed; border-top:#002f71 1px dashed; margin:0.14rem auto 0; padding-bottom:0.2rem;}
+.DY-2-talk{ border-bottom:none;}
+.DY-1-talk dt,.DY-2-talk dt{ width:auto; height:0.26rem; line-height:0.26rem; color:#00a8ff; margin-top:0.21rem;}
+.DY-1-talk dt img,.DY-2-talk dt img{ width:0.32rem; height:0.26rem;background-size:100% 100%;}
+.DY-1-talk dd { float:left; width:auto; text-align:center; height:0.4rem; line-height:0.4rem; background:#0048b1; margin:0.13rem 0.22rem 0rem 0rem; padding-left:0.03rem; padding-right:0.03rem;}
+.DY-1-talk li { width:auto; text-align:center; height:0.4rem; line-height:0.4rem; background:#0048b1; float:left; margin:0.07rem 0.07rem 0rem 0rem; padding-left:0.06rem; padding-right:0.06rem;}
+
+.DY-1-MS{ width:5.4rem; height:auto; margin:0.05rem auto 0.15rem;}
+.DY-1-MS dt{ width:auto; text-align:center; height:0.48rem; line-height:0.48rem; font-size:0.29rem; color:#ffeb00;}
+.DY-1-MS dd{ width:2.51rem; height:0.57rem; line-height:0.57rem; padding-left:0.1rem; font-size:0.26rem; color:#fff6e4; background:url(../images/MSbtn.png) no-repeat; background-size:100% 100%; float:left; margin-right:0.08rem;}
+.DY-1-MS dd a{ color:#fff6e4;}
+
+.DY-2-talk dd{ float:left; width:auto; text-align:center; height:0.4rem; line-height:0.4rem; background:#0048b1; margin:0.11rem 0.09rem 0 0; padding:0 0.09rem 0 0.09rem;}
+
+
+
+#DY-3{ padding-top:0.33rem; padding-bottom:0.27rem; width:100%; height:auto;}
+.DY-3-top,.DY-3-bottom{ width:6.15rem; height:auto; padding:0 0.1rem 0.24rem 0.03rem; border-bottom:#002f71 1px dashed; margin:0 auto; position:relative;}
+.DY-3-bottom{ margin-top:0.29rem;}
+.DY-3-top-left,.DY-3-bottom-left{ float:left; width:1.18rem; height:1.68rem; border:#f0df2c 1px solid; border-radius:1px;}
+.DY-3-top-left img,.DY-3-bottom-left img{ width:100%;}
+.DY-3-top-right,.DY-3-bottom-right{ float:left; margin-left:0.21rem;}
+.DY-3-top-right h3,.DY-3-bottom-right h3{ width:auto; font-size:0.3rem; height:0.36rem; line-height:0.36rem; color:#00a8ff;}
+.DY-3-top-right li,.DY-3-bottom-right li{ width:auto; height:0.48rem; line-height:0.48rem;}
+.DY-3-top-a,.DY-3-bottom-a{ display:block; width:0.33rem; height:0.33rem; background:url(../images/qwer.png) no-repeat; background-size:100% 100%; position:absolute; bottom:1rem; right:0.06rem;}
+
+
+
+
+
+
+
